@@ -1,0 +1,24 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('snakebg.png'); /* Add the image path here */
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    height: 100vh; /* Ensure the body takes full height */
+}
+
+h1{
+    font-size: 45px;
+}
+#score-display {
+    font-size: 30px;
+    font-weight:900;
+    color: red; /* Change the score color to red */
+    margin-bottom: 10px; /* Adds some space between score and canvas */
+}
+
+#board {
+    border: 2px solid black; /* Border for the canvas */
+    background-color: black; /* Canvas background */
+}

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-image: url("tictactoebg.png");
+   background-repeat: no-repeat ;
+   background-size: 100% ;
+  text-align: center;
+
+}
+#heading{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+.contaner{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    
+}
+.box{
+    height:18vmin ;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow:  0 0 1rem rgb(9, 91, 15);
+    font-size: 12vmin;
+    color: rgb(0, 0, 0);
+    background: #dfe6ad;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(62, 53, 70);
+    color: white;
+    border-radius: 9px;
+    border: none;
+}
+
+#newgame{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(62, 53, 70);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    border: none;
+}
+#text{
+    color: rgb(255, 0, 0);
+    font-size: 6vmin;
+}
+.msg{
+    height: 110vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}
